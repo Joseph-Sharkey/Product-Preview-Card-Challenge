@@ -1,0 +1,84 @@
+body {
+	overflow: hidden;
+	background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+	display: block;
+	background-color: white;
+	/*margin-left: 20rem;
+	margin-right: 20rem;*/
+	border-radius: 1vw;
+	height: 450px;
+	margin: 20vh auto;
+	width: 600px;
+	
+
+}
+
+img {
+	border-radius: 10px 0px 0px 10px;
+	height: 450px;
+	width: 50%;
+	float: left;
+
+}
+
+.text {
+	height: 100%;
+	width: 45%;
+	float: right;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-family: "Montserrat", serif;
+}
+
+.text h1 {
+	padding: 5% 0% 10% 0%;
+	font-size: 30px;
+}
+.text h2 {
+	font-size: 16px;
+}
+
+.prices {
+	padding-bottom: 20%;
+}
+
+.oldPrice {
+	text-decoration: line-through;
+	float: left;
+	font-size: 12px;
+	padding-left: 20px;
+}
+.prices h2 {
+	float: left;
+}
+
+button {
+	padding-left: 35%;
+	padding-right: 35%;
+	text-align: center;
+	background-color: rgb(28, 99, 22);
+	color: white;
+	font-family: "Fraunces", serif;
+	border: 1px solid rgb(28, 99, 22);
+	border-radius: 5px;
+	height: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 15px;
+	transition: 0.1s ease-in;
+}
+
+button:hover {
+	background-color: rgb(21, 68, 17);
+	border: 1px solid rgb(21, 68, 17); 
+
+}
+
+.text h3 {
+	font-family: "Space Mono", serif;
+	font-size: 15px;
+	letter-spacing: 5px;
+}
